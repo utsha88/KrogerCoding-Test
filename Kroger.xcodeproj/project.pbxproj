@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD66211520A2905F006263B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66211420A2905F006263B6 /* AppDelegate.swift */; };
+		BD66211720A2905F006263B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66211620A2905F006263B6 /* ViewController.swift */; };
+		BD66211A20A2905F006263B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD66211820A2905F006263B6 /* Main.storyboard */; };
+		BD66211C20A2905F006263B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD66211B20A2905F006263B6 /* Assets.xcassets */; };
+		BD66211F20A2905F006263B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD66211D20A2905F006263B6 /* LaunchScreen.storyboard */; };
+		BD66212A20A2905F006263B6 /* KrogerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66212920A2905F006263B6 /* KrogerTests.swift */; };
+		BD66213520A2905F006263B6 /* KrogerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD66213420A2905F006263B6 /* KrogerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD66212620A2905F006263B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD66210920A2905F006263B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD66211020A2905F006263B6;
+			remoteInfo = Kroger;
+		};
+		BD66213120A2905F006263B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD66210920A2905F006263B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD66211020A2905F006263B6;
+			remoteInfo = Kroger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD66211120A2905F006263B6 /* Kroger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kroger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD66211420A2905F006263B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD66211620A2905F006263B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD66211920A2905F006263B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD66211B20A2905F006263B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD66211E20A2905F006263B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD66212020A2905F006263B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD66212520A2905F006263B6 /* KrogerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrogerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD66212920A2905F006263B6 /* KrogerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrogerTests.swift; sourceTree = "<group>"; };
+		BD66212B20A2905F006263B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD66213020A2905F006263B6 /* KrogerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrogerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD66213420A2905F006263B6 /* KrogerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrogerUITests.swift; sourceTree = "<group>"; };
+		BD66213620A2905F006263B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD66210E20A2905F006263B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66212220A2905F006263B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66212D20A2905F006263B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD66210820A2905F006263B6 = {
+			isa = PBXGroup;
+			children = (
+				BD66211320A2905F006263B6 /* Kroger */,
+				BD66212820A2905F006263B6 /* KrogerTests */,
+				BD66213320A2905F006263B6 /* KrogerUITests */,
+				BD66211220A2905F006263B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD66211220A2905F006263B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD66211120A2905F006263B6 /* Kroger.app */,
+				BD66212520A2905F006263B6 /* KrogerTests.xctest */,
+				BD66213020A2905F006263B6 /* KrogerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD66211320A2905F006263B6 /* Kroger */ = {
+			isa = PBXGroup;
+			children = (
+				BD66211420A2905F006263B6 /* AppDelegate.swift */,
+				BD66211620A2905F006263B6 /* ViewController.swift */,
+				BD66211820A2905F006263B6 /* Main.storyboard */,
+				BD66211B20A2905F006263B6 /* Assets.xcassets */,
+				BD66211D20A2905F006263B6 /* LaunchScreen.storyboard */,
+				BD66212020A2905F006263B6 /* Info.plist */,
+			);
+			path = Kroger;
+			sourceTree = "<group>";
+		};
+		BD66212820A2905F006263B6 /* KrogerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD66212920A2905F006263B6 /* KrogerTests.swift */,
+				BD66212B20A2905F006263B6 /* Info.plist */,
+			);
+			path = KrogerTests;
+			sourceTree = "<group>";
+		};
+		BD66213320A2905F006263B6 /* KrogerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD66213420A2905F006263B6 /* KrogerUITests.swift */,
+				BD66213620A2905F006263B6 /* Info.plist */,
+			);
+			path = KrogerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD66211020A2905F006263B6 /* Kroger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD66213920A2905F006263B6 /* Build configuration list for PBXNativeTarget "Kroger" */;
+			buildPhases = (
+				BD66210D20A2905F006263B6 /* Sources */,
+				BD66210E20A2905F006263B6 /* Frameworks */,
+				BD66210F20A2905F006263B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kroger;
+			productName = Kroger;
+			productReference = BD66211120A2905F006263B6 /* Kroger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD66212420A2905F006263B6 /* KrogerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD66213C20A2905F006263B6 /* Build configuration list for PBXNativeTarget "KrogerTests" */;
+			buildPhases = (
+				BD66212120A2905F006263B6 /* Sources */,
+				BD66212220A2905F006263B6 /* Frameworks */,
+				BD66212320A2905F006263B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD66212720A2905F006263B6 /* PBXTargetDependency */,
+			);
+			name = KrogerTests;
+			productName = KrogerTests;
+			productReference = BD66212520A2905F006263B6 /* KrogerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD66212F20A2905F006263B6 /* KrogerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD66213F20A2905F006263B6 /* Build configuration list for PBXNativeTarget "KrogerUITests" */;
+			buildPhases = (
+				BD66212C20A2905F006263B6 /* Sources */,
+				BD66212D20A2905F006263B6 /* Frameworks */,
+				BD66212E20A2905F006263B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD66213220A2905F006263B6 /* PBXTargetDependency */,
+			);
+			name = KrogerUITests;
+			productName = KrogerUITests;
+			productReference = BD66213020A2905F006263B6 /* KrogerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD66210920A2905F006263B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Utsha Guha";
+				TargetAttributes = {
+					BD66211020A2905F006263B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						ProvisioningStyle = Automatic;
+					};
+					BD66212420A2905F006263B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD66211020A2905F006263B6;
+					};
+					BD66212F20A2905F006263B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD66211020A2905F006263B6;
+					};
+				};
+			};
+			buildConfigurationList = BD66210C20A2905F006263B6 /* Build configuration list for PBXProject "Kroger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD66210820A2905F006263B6;
+			productRefGroup = BD66211220A2905F006263B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD66211020A2905F006263B6 /* Kroger */,
+				BD66212420A2905F006263B6 /* KrogerTests */,
+				BD66212F20A2905F006263B6 /* KrogerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD66210F20A2905F006263B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66211F20A2905F006263B6 /* LaunchScreen.storyboard in Resources */,
+				BD66211C20A2905F006263B6 /* Assets.xcassets in Resources */,
+				BD66211A20A2905F006263B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66212320A2905F006263B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66212E20A2905F006263B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD66210D20A2905F006263B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66211720A2905F006263B6 /* ViewController.swift in Sources */,
+				BD66211520A2905F006263B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66212120A2905F006263B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66212A20A2905F006263B6 /* KrogerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66212C20A2905F006263B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66213520A2905F006263B6 /* KrogerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD66212720A2905F006263B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD66211020A2905F006263B6 /* Kroger */;
+			targetProxy = BD66212620A2905F006263B6 /* PBXContainerItemProxy */;
+		};
+		BD66213220A2905F006263B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD66211020A2905F006263B6 /* Kroger */;
+			targetProxy = BD66213120A2905F006263B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD66211820A2905F006263B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD66211920A2905F006263B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD66211D20A2905F006263B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD66211E20A2905F006263B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD66213720A2905F006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD66213820A2905F006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD66213A20A2905F006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = Kroger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.Kroger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD66213B20A2905F006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = Kroger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.Kroger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BD66213D20A2905F006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = KrogerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.KrogerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kroger.app/Kroger";
+			};
+			name = Debug;
+		};
+		BD66213E20A2905F006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = KrogerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.KrogerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kroger.app/Kroger";
+			};
+			name = Release;
+		};
+		BD66214020A2905F006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = KrogerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.KrogerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kroger;
+			};
+			name = Debug;
+		};
+		BD66214120A2905F006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = KrogerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.KrogerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kroger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD66210C20A2905F006263B6 /* Build configuration list for PBXProject "Kroger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66213720A2905F006263B6 /* Debug */,
+				BD66213820A2905F006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD66213920A2905F006263B6 /* Build configuration list for PBXNativeTarget "Kroger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66213A20A2905F006263B6 /* Debug */,
+				BD66213B20A2905F006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD66213C20A2905F006263B6 /* Build configuration list for PBXNativeTarget "KrogerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66213D20A2905F006263B6 /* Debug */,
+				BD66213E20A2905F006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD66213F20A2905F006263B6 /* Build configuration list for PBXNativeTarget "KrogerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66214020A2905F006263B6 /* Debug */,
+				BD66214120A2905F006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD66210920A2905F006263B6 /* Project object */;
+}
